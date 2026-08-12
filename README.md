@@ -63,7 +63,9 @@ The system can also be controlled and monitored through Bluetooth communication.
 
 The following video demonstrates the detection and sorting process for transparent and colored PET bottles.
 
-https://github.com/user-attachments/assets/ab695fcf-5867-45f5-a6ab-70af8e449774
+https://github.com/user-attachments/assets/99f95340-04ed-4677-bc1d-23c09b1889e4
+
+
 
 # System Operation
 1. System Control
