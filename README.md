@@ -59,7 +59,7 @@ The system can also be controlled and monitored through Bluetooth communication.
 #include <LiquidCrystal_I2C.h>
 ```
 
-# Demonstration
+## Demonstration
 
 The following video demonstrates the detection and sorting process for transparent and colored PET bottles.
 
@@ -67,7 +67,7 @@ https://github.com/user-attachments/assets/99f95340-04ed-4677-bc1d-23c09b1889e4
 
 
 
-# System Operation
+## System Operation
 1. System Control
 
 The system uses Bluetooth serial communication to control its operating state.
@@ -92,8 +92,10 @@ The combination of these two sensor states determines the current condition.
 ### Detection Logic
 #### No PET Bottle Detected
 
+```cpp
 Light Sensor = 0
 IR Sensor = 1
+```
 
 The system remains in its normal standby state.
 
@@ -103,8 +105,10 @@ The system remains in its normal standby state.
 
 #### Transparent PET Bottle
 
+```cpp
 Light Sensor = 0
 IR Sensor = 0
+```
 
 The system identifies the object as a transparent PET bottle.
 
@@ -117,8 +121,10 @@ The system waits for approximately 6 seconds before returning to the detection p
 
 ### Colored PET Bottle
 
+```cpp
 Light Sensor = 1
 IR Sensor = 0
+```
 
 The system identifies the object as a colored PET bottle.
 
@@ -187,16 +193,16 @@ PET-Bottle-Transparency-Recycling-Sorter/
 - **code.ino** - Arduino source code for the PET bottle detection and sorting system.
 - **images/hardware-prototype.jpg** - Hardware prototype before integrating the components into the recycling bin enclosure.
 
-# Project Result
+## Project Result
 
 The prototype demonstrates a method for automatically distinguishing transparent and colored PET bottles using sensor-based detection.
 
 The system integrates multiple embedded components, including sensors, Bluetooth communication, a servo motor, an LCD, and a NeoPixel LED.
 
-  # Project Information
- - Project Name: PET Bottle Transparency Recycling Sorter
- - Platform: Arduino Uno
- - Language: C/C++
- - Project Type: Embedded System / IoT
- - Department: Department of Electronic Engineering
- - Date: June 2023
+## Project Information
+- Project Name: PET Bottle Transparency Recycling Sorter
+- Platform: Arduino Uno
+- Language: C/C++
+- Project Type: Embedded System / IoT
+- Department: Department of Electronic Engineering
+- Date: June 2023
