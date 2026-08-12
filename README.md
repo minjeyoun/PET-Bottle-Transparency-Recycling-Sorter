@@ -128,7 +128,9 @@ The system identifies the object as a colored PET bottle.
 The system waits for approximately 3 seconds before returning to the detection process.
 
 # System Flow
+# System Flow
 
+```text
         Start
           │
           ▼
@@ -141,7 +143,7 @@ The system waits for approximately 3 seconds before returning to the detection p
      No         Yes
      │           │
      ▼           ▼
-   Standby   Read Sensors
+   Standby    Read Sensors
                  │
                  ▼
         ┌──────────────────┐
@@ -154,20 +156,21 @@ The system waits for approximately 3 seconds before returning to the detection p
         └──────────────────────┘
                  │
         ┌────────┴─────────┐
-        ▼                  ▼
- Transparent            Colored
+        ▼                   ▼
+ Transparent             Colored
     PET                    PET
-        │                  │
-        ▼                  ▼
- Servo Open           Servo Closed
-        │                  │
-        ▼                  ▼
- LCD: PASS             LCD: Block
- Transparent            Colored
-        │                  │
-        ▼                  ▼
- Bluetooth             Bluetooth
- "Great Job!"           "Refusal!"
+     │                      │
+     ▼                      ▼
+ Servo Open            Servo Closed
+     │                      │
+     ▼                      ▼
+ LCD: PASS              LCD: Block
+ Transparent             Colored
+     │                      │
+     ▼                      ▼
+ Bluetooth              Bluetooth
+"Great Job!"           "Refusal!"
+```
 
 
 ## Project Structure
