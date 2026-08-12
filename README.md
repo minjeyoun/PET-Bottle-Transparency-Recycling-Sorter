@@ -58,7 +58,7 @@ The system can also be controlled and monitored through Bluetooth communication.
 #include "HX711.h"
 #include <LiquidCrystal_I2C.h>
 
-**# Demonstration**
+# Demonstration
 
 The following video demonstrates the detection and sorting process for transparent and colored PET bottles.
 
