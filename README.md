@@ -72,8 +72,8 @@ https://github.com/user-attachments/assets/99f95340-04ed-4677-bc1d-23c09b1889e4
 
 The system uses Bluetooth serial communication to control its operating state.
 
- - T → Turn the system ON
- - F → Turn the system OFF
+- T → Turn the system ON
+- F → Turn the system OFF
 
 When the system is turned off, the NeoPixel LED is turned off and the LCD backlight is disabled.
 
@@ -89,8 +89,8 @@ int Ir_S_P = digitalRead(IRsensorPin);
 
 The combination of these two sensor states determines the current condition.
 
-# Detection Logic
-## No PET Bottle Detected
+### Detection Logic
+#### No PET Bottle Detected
 
 Light Sensor = 0
 IR Sensor = 1
@@ -101,7 +101,7 @@ The system remains in its normal standby state.
  - Servo: Closed position
  - LCD: No detection message
 
-### Transparent PET Bottle
+#### Transparent PET Bottle
 
 Light Sensor = 0
 IR Sensor = 0
@@ -129,8 +129,7 @@ The system identifies the object as a colored PET bottle.
 
 The system waits for approximately 3 seconds before returning to the detection process.
 
-# System Flow
-# System Flow
+## System Flow
 
 ```text
         Start
