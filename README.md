@@ -57,6 +57,7 @@ The system can also be controlled and monitored through Bluetooth communication.
 #include <Servo.h>
 #include "HX711.h"
 #include <LiquidCrystal_I2C.h>
+```
 
 # Demonstration
 
