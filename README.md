@@ -98,8 +98,7 @@ The system remains in its normal standby state.
  - Servo: Closed position
  - LCD: No detection message
 
-```markdown
-# Transparent PET Bottle
+### Transparent PET Bottle
 
 Light Sensor = 0
 IR Sensor = 0
@@ -113,7 +112,7 @@ The system identifies the object as a transparent PET bottle.
 
 The system waits for approximately 6 seconds before returning to the detection process.
 
-# Colored PET Bottle
+### Colored PET Bottle
 
 Light Sensor = 1
 IR Sensor = 0
@@ -170,7 +169,7 @@ The system waits for approximately 3 seconds before returning to the detection p
  "Great Job!"           "Refusal!"
 
 
-# Project Structure
+## Project Structure
 
 PET-Bottle-Transparency-Recycling-Sorter/
 ├── README.md
