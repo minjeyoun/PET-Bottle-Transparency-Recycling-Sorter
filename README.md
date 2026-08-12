@@ -175,14 +175,16 @@ The system waits for approximately 3 seconds before returning to the detection p
 
 ## Project Structure
 
+```text
 PET-Bottle-Transparency-Recycling-Sorter/
 ├── README.md
 ├── code.ino
 └── images/
     └── hardware-prototype.jpg
+```
 
- - code.ino - Arduino source code for the PET bottle detection and sorting system.
- - images/hardware-prototype.jpg - Hardware prototype before integrating the components into the recycling bin enclosure.
+- **code.ino** - Arduino source code for the PET bottle detection and sorting system.
+- **images/hardware-prototype.jpg** - Hardware prototype before integrating the components into the recycling bin enclosure.
 
 # Project Result
 
